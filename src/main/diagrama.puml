@@ -5,21 +5,21 @@ class Inscripcion {
     - almuno: Alumno
 
     + aprobada(): Boolean
+    + agregarMateriaACursar() : void
 }
 
 class Alumno {
-    - nombre: String
     - materiasAprobadas: set<Materia>
 
-
     + tieneAprobada(Materia): Boolean
+    + agregarMateriaArobada() : void
 }
 
 class Materia {
-    - nombre: String
     - materiasCorrelativas: set<Materia>
 
     + cumpleCorrelativas(Alumno): Boolean
+    + agregarCorrelativa() : void
 }
 
 Inscripcion --|> Alumno

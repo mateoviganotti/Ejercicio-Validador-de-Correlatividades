@@ -1,13 +1,11 @@
 package domain.entity;
 
+import domain.entities.Alumno;
+import domain.entities.Inscripcion;
+import domain.entities.Materia;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import java.util.HashSet;
-import java.util.Set;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class InscripcionTest {
 
